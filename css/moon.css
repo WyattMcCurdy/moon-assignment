@@ -83,7 +83,6 @@ a:hover, a:active, a:focus{
 .wrapper{
 	width:90%;
 	max-width: 1020px;
-	min-width: 400px;
 	margin:0 auto 2.0rem;
 	background-color: #d4d4d4;
 }
