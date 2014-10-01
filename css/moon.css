@@ -168,7 +168,7 @@ a:hover, a:active, a:focus{
  padding: 10px;
 }
 .footer li{
-    
+    line-height: 1rem;
     width: 50%;
     
     /* make these 50% the width of the footer */
