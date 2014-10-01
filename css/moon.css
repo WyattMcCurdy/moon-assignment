@@ -64,7 +64,7 @@ p, li, a{
 }
 img{
 	width:15%;
-	max-width: 15%;
+    height: 15%;
 	box-sizing: border-box;
 }
 ul{
@@ -130,7 +130,8 @@ a:hover, a:active, a:focus{
 .footer a:hover,
 .footer a:active,
 .footer a:focus{
-	color: #BADA55
+	font-size: 1.1rem;
+    color: #BADA55
 }
 
 
@@ -165,8 +166,8 @@ a:hover, a:active, a:focus{
 	margin-bottom: 0px;
 }
 .footer p{
-
-    line-height: 9rem;
+    clear: left;
+    line-height: 1rem;
     padding: 10px;
 }
 .footer li{
