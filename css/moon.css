@@ -1,0 +1,175 @@
+@charset "utf-8";
+@viewport {width: device-width; scale 1;}
+html{text-size-adjust: 100%;}
+/***********************************
+		REFERENCES
+font-sizes
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+
+font-families
+Droid Serif, Droid Sans
+
+colors
+#000000
+#222222
+#333333
+#D4D4D4
+#CC3300
+#BADA55
+#FFFFFF
+plus the shadow for the text
+
+
+***********************************/
+
+*{
+	padding:0;
+	margin:0;
+}
+
+/***********************************
+		DEFAULTS
+***********************************/
+body{
+	background-color: #222;
+}
+h1, h2, h3, h4{
+	font-family:'Droid Serif', serif;  /* you need a font stack here */
+    padding-left: 1.618rem;
+    margin: 0;
+}
+h1{
+	color: #FFFFFF;
+    font-size: 6.854rem;
+}
+h2{
+    color: #CC3300;
+    font-size: 4.236rem;
+}
+h3{
+	color: #CC3300;
+    font-size: 2.618rem;
+}
+h4{
+	
+}
+p, li, a{
+	font-family: 'Droid Sans', sans-serif; /* you need a font stack here */
+    font-size: 1rem;
+}
+img{
+	width:15%;
+	max-width: 15%;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+a:link, a:visited{
+	transition: all 0.8s linear;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+
+/***********************************
+		LAYOUT
+***********************************/
+.wrapper{
+	width:90%;
+	max-width: 1020px;
+	min-width: 400px;
+	margin:0 auto 2.0rem;
+	background-color: #d4d4d4;
+}
+.header{
+    background-image: url(../img/moon-header.jpg);
+    background-color: #000;
+    background-position: top right;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.one{ 
+  width: 720px;  
+  padding:0; 
+  margin:0; 
+} 
+.two{
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+.main p{
+	line-height: 1.5;
+    padding: 10px 20px;
+    padding-left: 1.618rem;
+    text-align: left;
+}
+.footer{
+	padding: 20px;
+    margin: 0; 
+    background-color: #333333
+}
+
+/***********************************
+		LINKS 
+-for any that are different than the default
+***********************************/
+
+.footer a:link {color: #CC3300}
+.footer a:visited{
+	display: block;
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus{
+	color: #BADA55
+}
+
+
+/***********************************
+		CONTENT
+***********************************/
+.header h1{
+    position: absolute;
+    line-height: 6.5rem;
+    margin-top: 40px;
+    padding-left: 30px;
+    width: 50%;
+}
+.main h2{
+	
+}
+.main h3{
+	
+}
+.main p{
+	
+}
+.main img{
+	border-radius: 25%;
+    /* use border-radius to crop image */
+	/* choose a width percentage for the image too */
+}
+.left{
+	float:left;
+	clear: left;
+    margin-right:10px;
+	margin-bottom: 0px;
+}
+.footer p{
+ padding: 10px;
+}
+.footer li{
+    
+    width: 50%;
+    
+    /* make these 50% the width of the footer */
+}
