@@ -154,7 +154,7 @@ a:hover, a:active, a:focus{
 	
 }
 .main img{
-	border-radius: 25%;
+	border-radius: 40%;
     /* use border-radius to crop image */
 	/* choose a width percentage for the image too */
 }
@@ -165,9 +165,14 @@ a:hover, a:active, a:focus{
 	margin-bottom: 0px;
 }
 .footer p{
- padding: 10px;
+
+    line-height: 9rem;
+    padding: 10px;
 }
 .footer li{
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
     line-height: 1rem;
     width: 50%;
     
